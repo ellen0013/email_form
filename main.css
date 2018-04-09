@@ -1,0 +1,173 @@
+body {
+	background-color: #E8E6E6;
+}
+
+.container {
+	padding: 0;
+}
+
+.img-container {
+	width: 100%;
+    position: relative;
+    display: block;
+}
+
+
+.img-container>img {
+	width: 100%;
+}
+
+.input-group {
+	height: 100%;
+}
+
+.input-box {
+	border-radius: 0;
+	border: 1px solid #f55547;
+	font-size: 1.2rem;
+}
+
+.input-group-text {
+	border-radius: 0;
+	border: 1px solid #f55547;
+	background-color: #f55547;
+	color: #ffffff;
+    font-size: 1.4rem;
+	font-weight: bold;
+	padding: .375rem 40px;
+}
+
+.event-btn {
+	border-radius: 0;
+	border: 1px solid #f55547;
+	background-color: #f55547;
+	font-size: 1rem;
+}
+
+.mobile-input {
+	height: 120px;
+	text-align: center;
+	padding: 20px 30px;
+	background-color: #f3f7fa;
+}
+
+.mobile-input-text {
+	margin-bottom: 10px;
+	border-radius: 0;
+	font-size: 0.8rem;
+	height: 40px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.container {
+		max-width: 100%;
+	}
+	.ev-container {
+		width: 100%;
+	}
+
+	.video-container {
+		position: absolute;
+		width: 85%;
+		bottom: 0;
+		height: 50%;
+		margin: 0 7.5%;
+	}
+
+	.input-container {
+		position: absolute;
+		width: 80%;
+		bottom: 0;
+		margin: 0 10%;
+		top: 35%;
+	}
+
+	.show-site {
+		position: absolute;
+		top: 50%;
+		left: 32%;
+		border-radius: 0;
+		border: 1px solid #f55547;
+		background-color: #f55547;
+		width: 36%;
+		font-size: 0.8rem;
+	}
+
+	.pc-input-1, .pc-input-2 {
+		display: none;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.container {
+		max-width: 100%;
+	}
+	.ev-container {
+		width: 100%;
+	}
+	.video-container {
+		position: absolute;
+		width: 85%;
+		bottom: 0;
+		height: 50%;
+		margin: 0 7.5%;
+	}
+	.input-container {
+		position: absolute;
+		width: 80%;
+		bottom: 0;
+		top: 41%;
+		margin: 0 10%;
+	}
+
+	.pc-input-1, .pc-input-2 {
+		display: none;
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) {
+	.ev-container {
+		width: 970px;
+		margin: 0 auto;
+	}
+
+	.video-container {
+		position: absolute;
+		width: 88.5%;
+		bottom: 0;
+		height: 50%;
+		margin: 0 54px;
+	}
+	.input-container {
+		position: absolute;
+		width: 80%;
+		top: 38%;
+		height: 35%;
+		margin: 0 10%;
+	}
+
+	.mobile-input {
+		display: none;
+	}
+
+	.last-input {
+		top: 46%;
+		height: 20%;
+	}
+
+	.show-site {
+		position: absolute;
+		top: 50%;
+		width: 40%;
+		left: 30%;
+		border-radius: 0;
+		border: 1px solid #f55547;
+		font-size: 1.5rem;
+		background-color: #f55547;
+	}
+}
+
+
